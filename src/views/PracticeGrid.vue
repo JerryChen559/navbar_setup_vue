@@ -1,6 +1,6 @@
 <template>
-  <div class="tournaments">
-    <h1>Tournaments Page</h1>
+  <div class="practicegrid">
+    <h1>Page to practice Grid in Vuetify</h1>
 
     <v-container fluid class="my-5">
       <!-- vuetify uses the flexbox grid system. work with widths of 12 -->

@@ -69,10 +69,10 @@ export default {
       drawer: true,
       avatar: [
         {
-          // nned to make image dynamic
+          // need to make image dynamic
           image: "https://randomuser.me/api/portraits/men/85.jpg",
           name: "Jerry Berry",
-          route: "/account"
+          route: "/playerprofile"
         }
       ],
       // coding links so that I do not have to rewrite the list-tile action&content over and over again.

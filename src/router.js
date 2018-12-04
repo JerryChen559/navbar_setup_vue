@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
+import PlayerProfile from "./views/PlayerProfile.vue";
 import Dashboard from "./views/Dashboard.vue";
 import Tournaments from "./views/Tournaments.vue";
 import Friends from "./views/Friends.vue";
@@ -42,6 +43,11 @@ export default new Router({
       path: "/account",
       name: "Account",
       component: Account
+    },
+    {
+      path: "/playerprofile",
+      name: "PlayerProfile",
+      component: PlayerProfile
     }
 
     // {

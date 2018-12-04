@@ -12,9 +12,10 @@
         <span class="mr-2">Latest Release</span>
       </v-btn>
     </v-toolbar>-->
-    <v-content>
+    <Navbar/>
+    <!-- styling/margin/padding {property}{direction}-{size} -->
+    <v-content class="mx-4 mb-4">
       <!-- <HelloWorld/> -->
-      <Navbar/>
       <router-view/>
     </v-content>
   </v-app>
